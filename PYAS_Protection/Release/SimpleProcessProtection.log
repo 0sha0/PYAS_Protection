@@ -1,0 +1,14 @@
+﻿  Building 'SimplePYASProtection' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Release\SimpleProcessProtection.inf
+  Stamping [Version] section with DriverVer=07/28/2023,20.1.40.736
+  Driver.c
+  File.c
+D:\ProgarmRelease\SimpleProcessProtection\File.c(114,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\ProgarmRelease\SimpleProcessProtection\File.c(118,36): error C2440: “return”: 无法从“UNICODE_STRING”转换为“OB_PREOP_CALLBACK_STATUS”
+D:\ProgarmRelease\SimpleProcessProtection\File.c(122,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\ProgarmRelease\SimpleProcessProtection\File.c(123,70): error C2065: “ObjectType”: 未声明的标识符
+D:\ProgarmRelease\SimpleProcessProtection\File.c(127,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\ProgarmRelease\SimpleProcessProtection\File.c(42): fatal error C1075: “{”: 未找到匹配令牌
+  Process.c
+  Regedit.c
+  正在生成代码...
